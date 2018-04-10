@@ -100,7 +100,7 @@ section > div h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    color:grey;
+    color:black;
     transition: 2s;
 }
 
@@ -129,7 +129,8 @@ section > div h2 {
 .title-gallery {
     font-size: 38px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
 
 .text-gallery {
@@ -275,7 +276,7 @@ section > div h2 {
     margin-top: 90px;
     padding-left: 20px;
     font-size: 40px;
-    font-weight: black;
+    font-weight: 800;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
 }
@@ -284,8 +285,9 @@ section > div h2 {
     padding: 20px 20px;
     font-size: 13px;
     color: white;
-    font-family: 'PT Sans', sans-serif;
-
+    font-family: 'Raleway', sans-serif;
+    line-height: 15px;
+    letter-spacing: 3px;
 }
 
 .row-nest > .col-4 {
@@ -314,9 +316,14 @@ section > div h2 {
 }
 
 [class*="no-title"] {
-    font-size: 30px;
+    font-size: 35px;
     color: rgb(35, 35, 35);
     font-family: 'Luckiest Guy';
+}
+
+.no-text {
+    font-size: 13px;
+    color: rgb(1, 198, 241);
 }
 .no-text:hover {
      color: rgb(1, 198, 241);
@@ -330,7 +337,7 @@ section > div h2 {
     background-color: #313332;
     color: white;
     padding: 20px 20px;
-    padding-top: 40px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .footer-col {
@@ -341,14 +348,15 @@ section > div h2 {
     line-height: 30px;
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
 }
 
 .footer-text {
     font-size: 13px;
     letter-spacing: 2px;
-    font-family: 'Amatic SC';
     text-align: left;
+    margin-bottom: 10px;
 }
 
 .line {
